@@ -2,7 +2,7 @@
 
 date_default_timezone_set('Europe/London');
 
-define("DB_NAME", "jp_name");
+define("DB_NAME", "jp");
 define("DB_USER", "jp_dev");
 define("DB_PASS", "jp_dev");
 define("DB_HOST", "localhost");

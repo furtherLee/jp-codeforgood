@@ -14,3 +14,5 @@ create table if not exists `users` (
     `iter` int not null
 );
 
+create user 'jp_dev'@'localhost' identified by 'jp_dev';
+grant all privileges on jp.* to 'jp_dev'@'localhost' with grant option;
